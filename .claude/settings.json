@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter run)",
+      "Bash(flutter test)",
+      "Bash(flutter analyze)",
+      "Bash(flutter pub get)",
+      "Bash(dart format *)",
+      "Bash(flutter clean)",
+      "Bash(git status)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(*/secrets/**)"
+    ]
+  }
+}
